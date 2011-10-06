@@ -1,0 +1,92 @@
+<!doctype html>
+<!--[if IE]><![endif]-->
+<!--[if lt IE 7 ]> <html lang="es" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="es" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="es" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="es" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="es" class="no-js"> <!--<![endif]-->
+<head>
+        <script></script> <!-- Avoid script blocking -->
+        
+        
+        <link rel="stylesheet" href="http://chico-ui.com.ar/versions/0.7.9/chico-min-0.7.9.css"> <!-- Chico-UI Core Style Sheet -->
+
+        <!--[if lt IE 7 ]>
+            <script src="./libs/js/dd_belatedpng.js"></script>
+            <script> DD_belatedPNG.fix('img, .ico'); //fix any <img> or .ico background-images </script>
+        <![endif]-->
+
+
+<style>
+	
+.left.fixed-column{
+	float:left;
+	width:290px;
+	margin:0px 10px 0px 0px;
+}
+
+.right.fluid-column{
+	margin:0px 0px 0px 320px;
+
+}
+
+.left.fluid-column{
+	height:20em;
+	float:left;
+	width:100%;
+}
+
+.left.fluid-column .box {
+	margin:0px 320px 0px 0px;
+}
+
+.right.fixed-column {
+	width:290px;
+	float:left;
+	margin-left:-290px !important;
+}
+
+/* just to highlight fixed columns */
+.fixed-column .box {
+	background-image: none;
+	background: #ccc;
+}
+
+</style>
+        
+<head>
+	
+<body>
+
+	
+		<div class="fixed-column left">
+			<div class="box">	
+				<h2>Left column fixed</h2>
+			</div>
+		</div>
+
+		
+		<div class="fluid-column right">
+			<div class="box">
+				<h2>Right content fluid</h2>
+			</div>
+		</div>
+
+		
+		<div class="fluid-column left">
+			<div class="box">
+				<h2>Left column fluid</h2>
+			</div>
+		</div>
+		
+		<div class="fixed-column right">
+			<div class="box">
+				<h2>Right content fixed</h2>
+			</div>
+		</div>
+
+
+
+		
+</body>
+</html>
